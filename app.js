@@ -289,6 +289,66 @@ router.get("/course/:id", async (ctx, next) => {
     code: "200",
     data,
   };
+  await next();
+});
+
+router.get("/friend", async (ctx, next) => {
+  ctx.body = {
+    code: "200",
+    data: [
+      {
+        id: 1,
+        cover:
+          "https://proxt-cdn.xuetangx.com/fe-proxtassets/xuetangX/0420/tshinghua.png",
+      },
+      {
+        id: 2,
+        cover:
+          "https://proxt-cdn.xuetangx.com/fe-proxtassets/xuetangX/0420/zhihuijiaoyu.png",
+      },
+      {
+        id: 3,
+        cover:
+          "https://proxt-cdn.xuetangx.com/fe-proxtassets/xuetangX/0420/junzhi.png",
+      },
+      {
+        id: 4,
+        cover:
+          "https://proxt-cdn.xuetangx.com/fe-proxtassets/xuetangX/0420/petersburg.png",
+      },
+      {
+        id: 5,
+        cover:
+          "https://proxt-cdn.xuetangx.com/fe-proxtassets/xuetangX/0420/openuniversity.png",
+      },
+      {
+        id: 6,
+        cover:
+          "https://proxt-cdn.xuetangx.com/fe-proxtassets/xuetangX/0420/kmooc.png",
+      },
+      {
+        id: 7,
+        cover:
+          "https://proxt-cdn.xuetangx.com/fe-proxtassets/xuetangX/0420/thaimooc.png",
+      },
+      {
+        id: 8,
+        cover:
+          "https://proxt-cdn.xuetangx.com/fe-proxtassets/xuetangX/0420/thaimooc.png",
+      },
+      {
+        id: 9,
+        cover:
+          "https://qn-next.xuetangx.com/classroom_user_export/cc/jxgjkc.png",
+      },
+      {
+        id: 10,
+        cover:
+          "https://proxt-cdn.xuetangx.com/fe-proxtassets/xuetangX/0420/sxmooc.png",
+      },
+    ],
+  };
+  await next();
 });
 
 app.use(router.routes()).use(router.allowedMethods());
