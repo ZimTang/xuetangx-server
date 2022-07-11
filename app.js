@@ -33,9 +33,9 @@ router.get("/swiper", async (ctx, next) => {
   ctx.body = {
     code: "200",
     data: [
-      "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704095212.png",
-      "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704095129.png",
-      "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704095509.png",
+      "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704095212.png",
+      "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704095129.png",
+      "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704095509.png",
     ],
   };
   await next();
@@ -48,25 +48,25 @@ router.get("/live", async (ctx, next) => {
       {
         id: 1,
         cover:
-          "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704095802.png",
+          "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704095802.png",
         title: "Tsinghua Global Summer School 2022",
       },
       {
         id: 2,
         cover:
-          "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704095841.png",
+          "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704095841.png",
         title: "学堂在线×快手《新知如师说》清华名师系列讲座",
       },
       {
         id: 3,
         cover:
-          "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704095916.png",
+          "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704095916.png",
         title: "第五届清华领导力论坛",
       },
       {
         id: 4,
         cover:
-          "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704095944.png",
+          "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704095944.png",
         title: "2022 Global Open Courses",
       },
     ],
