@@ -290,7 +290,7 @@ router.get("/course/:id", async (ctx, next) => {
       ];
       break;
     case 3:
-      [
+      data = [
         {
           id: 17,
           cover: "https://a2k6.com/0619/i/2022/07/05/1mj1q6.png",
