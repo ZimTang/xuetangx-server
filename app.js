@@ -146,7 +146,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103607.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103607.png",
         },
         {
           id: 2,
@@ -155,7 +155,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103620.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103620.png",
         },
         {
           id: 3,
@@ -164,7 +164,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103634.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103634.png",
         },
         {
           id: 4,
@@ -173,7 +173,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103645.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103645.png",
         },
         {
           id: 5,
@@ -182,7 +182,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103658.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103658.png",
         },
         {
           id: 6,
@@ -191,7 +191,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103711.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103711.png",
         },
         {
           id: 7,
@@ -200,7 +200,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103721.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103721.png",
         },
         {
           id: 8,
@@ -209,7 +209,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103730.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103730.png",
         },
       ];
       break;
@@ -222,7 +222,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103747.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103747.png",
         },
         {
           id: 10,
@@ -231,7 +231,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103620.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103620.png",
         },
         {
           id: 11,
@@ -240,7 +240,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103818.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103818.png",
         },
         {
           id: 12,
@@ -249,7 +249,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103829.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103829.png",
         },
         {
           id: 13,
@@ -258,7 +258,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103840.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103840.png",
         },
         {
           id: 14,
@@ -267,7 +267,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103849.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103849.png",
         },
         {
           id: 15,
@@ -276,7 +276,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103901.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103901.png",
         },
         {
           id: 16,
@@ -285,7 +285,7 @@ router.get("/course/:id", async (ctx, next) => {
           creator: "清华大学",
           count: 21000,
           cover:
-            "https://codertzm.oss-cn-chengdu.aliyuncs.com/cover/20220704103912.png",
+            "https://codertzm.oss-cn-chengdu.aliyuncs.com/img/20220704103912.png",
         },
       ];
       break;
